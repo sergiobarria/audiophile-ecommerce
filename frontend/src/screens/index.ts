@@ -4,6 +4,7 @@ import HeadphonesScreen from './HeadphonesScreen';
 import ProductDetailScreen from './ProductDetailScreen';
 import SpeakersScreen from './SpeakersScreen';
 import NotFoundScreen from './NotFoundScreen';
+import CheckoutScreen from './CheckoutScreen';
 
 export {
   HomeScreen,
@@ -12,4 +13,5 @@ export {
   ProductDetailScreen,
   SpeakersScreen,
   NotFoundScreen,
+  CheckoutScreen,
 };

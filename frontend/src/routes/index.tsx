@@ -7,6 +7,7 @@ import {
   EarphonesScreen,
   ProductDetailScreen,
   NotFoundScreen,
+  CheckoutScreen,
 } from '../screens';
 
 const Routes: React.FC = () => {
@@ -16,6 +17,7 @@ const Routes: React.FC = () => {
       <Route path="/categories/headphones" component={HeadphonesScreen} />
       <Route path="/categories/speakers" component={SpeakersScreen} />
       <Route path="/categories/earphones" component={EarphonesScreen} />
+      <Route path="/checkout" component={CheckoutScreen} />
       <Route
         path="/product-detail/:productId"
         component={ProductDetailScreen}
