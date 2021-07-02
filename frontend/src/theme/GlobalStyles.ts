@@ -14,6 +14,14 @@ export const GlobalStyles = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
   }
 
+  ul {
+    list-style: none;
+  }
+
+  a, a:active {
+    text-decoration: none;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: ${props => props.theme.fontFamily}, sans-serif;
     font-weight: bold;
