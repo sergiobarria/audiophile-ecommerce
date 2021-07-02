@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Footer = styled.footer`
-  background-color: ${props => props.theme.darkerGrey};
+  background-color: ${props => props.theme.darkGrey};
 
   /* This removes spaces beneath the images */
   img {

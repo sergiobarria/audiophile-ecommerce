@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Header = styled.header`
   height: 5.625rem;
-  background-color: ${props => props.theme.darkerGrey};
+  background-color: ${props => props.theme.darkGrey};
 
   nav {
     display: flex;

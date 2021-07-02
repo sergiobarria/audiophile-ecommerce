@@ -64,6 +64,12 @@ export const GlobalStyles = createGlobalStyle`
     letter-spacing: 1.3px;
   }
 
+  p {
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 0.9375rem;
+  }
+
   .overline, .subtitle {
     color: ${props => props.theme.primary};
     font-family: ${props => props.theme.fontFamily}, sans-serif;

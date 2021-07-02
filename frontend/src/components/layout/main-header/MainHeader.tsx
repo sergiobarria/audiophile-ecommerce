@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import Container from '../container/Container';
+import Container from '../../helpers/container/Container';
 import NavLinks from '../nav-links/NavLinks';
 import { Header, NavLinksContainer } from './MainHeader.styles';
 
