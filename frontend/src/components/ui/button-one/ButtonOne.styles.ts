@@ -1,10 +1,6 @@
 import styled from 'styled-components';
 
-const ButtonPrimary: React.FC = ({ children }) => {
-  return <Button>{children}</Button>;
-};
-
-const Button = styled.button`
+export const Button = styled.button`
   background-color: ${props => props.theme.primary};
   border: none;
   font-size: 0.8125rem;
@@ -18,5 +14,3 @@ const Button = styled.button`
     background-color: ${props => props.theme.primaryLight};
   }
 `;
-
-export default ButtonPrimary;

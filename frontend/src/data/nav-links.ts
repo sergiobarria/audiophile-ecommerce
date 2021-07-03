@@ -1,6 +1,4 @@
-import { NavLinks } from '../types/layout-types';
-
-export const navLinks: NavLinks[] = [
+export const navLinks = [
   {
     id: 1,
     text: 'home',

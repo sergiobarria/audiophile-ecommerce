@@ -1,6 +1,4 @@
-import { SocialLinks } from '../types/layout-types';
-
-export const socialLinks: SocialLinks[] = [
+export const socialLinks = [
   {
     id: 1,
     name: 'facebook',
