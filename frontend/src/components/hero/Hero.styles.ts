@@ -1,8 +1,12 @@
 import styled from 'styled-components';
 
-export const HeroContainer = styled.div`
+export const HeroContainer = styled.section`
   background-color: ${props => props.theme.darkGrey};
   height: 31.875rem;
+
+  & > div {
+    padding: 0;
+  }
 
   .hero-image {
     background-image: url('assets/images/home/mobile/image-header.jpg');

@@ -1,5 +1,5 @@
 import Container from '../helpers/container/Container';
-import ButtonOne from '../ui/button-one/ButtonOne';
+import ButtonOne from '../ui/button-1/ButtonOne';
 
 import { HeroContainer } from './Hero.styles';
 

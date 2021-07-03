@@ -1,24 +1,6 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
-import { Categories } from '../../types/types';
-import ButtonThree from '../ui/button-three/ButtonThree';
-
-const CategoriesCard: React.FC<Categories> = ({ id, title, img, url }) => {
-  return (
-    <Card>
-      <div>
-        <img src={img} alt="category" />
-      </div>
-      <h6>{title}</h6>
-      <Link to={url}>
-        <ButtonThree>shop</ButtonThree>
-      </Link>
-    </Card>
-  );
-};
-
-const Card = styled.article`
+export const Card = styled.article`
   background-color: ${props => props.theme.lightGrey};
   grid-column: span 3;
   display: flex;
@@ -61,5 +43,3 @@ const Card = styled.article`
     }
   }
 `;
-
-export default CategoriesCard;
